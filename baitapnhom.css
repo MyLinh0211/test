@@ -1,0 +1,513 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.khung {
+	width: auto;
+	height: auto;
+}
+.khung .head{
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.head .box1{
+	float: left;
+	width: 30%;
+	height: 20px;
+	/*background: gray;*/
+	margin-top: 15px;
+	margin-left: 2%;
+	margin-right: 38%;
+
+}
+.box1 ul{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.box1 ul li{
+	float: left;
+	width: 10%;
+	height: 100%;
+	list-style: none;
+	/*background: green;*/
+
+}
+.box1 ul li img{
+	width: 50%;
+	height: 20px;
+}
+.box1 ul li a{
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+
+}
+.box1 ul li a:hover{
+	color: blue;
+}
+.box1 ul .line1{
+	float: left;
+	width: 1px;
+	height: 20px;
+	background: black;
+}
+.head .box2{
+	float: left;
+	width: 30%;
+	height: 20px;
+	margin-top: 15px;
+	/*background: green;*/
+
+} 
+.box2 a{
+	float: left;
+	text-decoration: none;
+}
+.box2 p{
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+
+}
+.box2 ul{
+	float: right;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+}
+.box2 ul li{
+	float: left;
+	width: auto;
+	height: 100%;
+	list-style: none;
+	/*background: gray;*/
+	margin-left: 5px;
+
+}
+.box2 ul li img{
+	width: 20px;
+	height: 20px;
+}
+.box2 ul li a{
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+
+}
+.box2 ul li a:hover{
+	color: blue;
+}
+.khung .head1{
+	width: 100%;
+	height: 100px;
+	/*background: pink;*/
+}
+.head1 .box3{
+	float: left;
+	width: 20%;
+	height: 50px;
+	/*background: black;*/
+	margin-left: 2%;
+	padding-top: 25px;
+}
+.box3 h2{
+	font-size: 40px;
+	line-height: 40px;
+}
+.box3 a{
+	text-decoration: none;
+	color: yellow;
+}
+.head1 .menu{
+	float: right;
+	width: 50%;
+	height: 100%;
+	/*background: red;*/
+}
+.menu ul{
+	width: 100%;
+	height: 50px;
+	margin-top: 25px;
+	text-align: center;
+	/*background: green;*/
+}
+.menu ul li{
+	float: left;
+	width: 10%;
+	height: 50px;
+	list-style: none;
+	/*background: white;*/
+	margin-left: 30px;
+
+}
+.menu ul li a{
+	color: black;
+	font-size: 18px;
+	line-height: 50px;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.khung .pic{
+	width: 100%;
+	height: 400px;
+	background-image: url('http://htt.edu.vn/wp-content/uploads/2016/09/Ng%C3%A0nh-C%C3%B4ng-ngh%E1%BB%87-k%E1%BB%B9-thu%E1%BA%ADt-x%C3%A2y-d%E1%BB%B1ng-l%C3%A0-g%C3%AC-ra-tr%C6%B0%E1%BB%9Dng-l%C3%A0m-g%C3%AC.jpg');
+}
+
+.pic .text{
+	width: 40%;
+	height: 300px;
+	/*background: red;*/
+	padding-top: 80px;
+}
+.text h3{
+	color: white;
+	font-size: 80px;
+	line-height: 80px;
+	padding:  0 20px;
+}
+.text p{
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: justify;
+	padding: 10px 20px;
+}
+.text a{
+	display: block;
+	width: 150px;
+	height: 50px;
+	text-decoration: none;
+	background: yellow;
+	margin-left: 20px;
+	border-radius: 5px;
+
+}
+.khung .contact{
+	width: 100%;
+	height: 400px;
+}
+.contact .box4{
+	float: left;
+	width: 32%;
+	height: 100%;
+}
+.contact .diff{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.box4 .pic1{
+	width: 90%;
+	height: 40%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.pic1 img{
+	width: 100%;
+	height: 100%
+}
+.box4 h4{
+	color: black;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 5px 20px;
+}
+.box4 p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px 20px;
+}
+.box4 a{
+	text-decoration: none;	
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px 20px;
+}
+.khung .pic2{
+	width: 100%;
+	height: 400px;
+	background-image: url('http://sohanews.sohacdn.com/2018/dunesnearharrarahburjqatartowerwestbay-1516605499238.jpg');
+}
+.pic2 .text1{
+	width: 60%;
+	height: 300px;
+	/*background: red;*/
+	padding-top: 80px;
+}
+.text1 h3{
+	color: white;
+	font-size: 50px;
+	line-height: 50px;
+	padding:  0 20px;
+}
+.text1 p{
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: justify;
+	padding: 10px 20px;
+}
+.text1 a{
+	display: block;
+	width: 190px;
+	height: 50px;
+	text-decoration: none;
+	background: yellow;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+.khung .contact1{
+	width: 100%;
+	height: 300px;
+}
+.contact1 .box5{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: white;
+}
+.box5 .icon{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.icon img{
+	width: 100%;
+	height: 100%;
+}
+.box5 a{
+	text-decoration: none;
+}
+.box5 p{
+	color: gray;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+.box5 a p:hover{
+	color: red;
+}
+.khung .contact2{
+	width: 100%;
+	height: 400px;
+	background-image: url('http://media.kinhtedothi.vn/518/2017/4/26/ndjdfhsjfhjf.JPG');
+}
+.contact2 .text2{
+	width: 60%;
+	height: 100%;
+}
+.text2 h4{
+	color:  black;
+	font-size: 40px;
+	line-height: 60px;
+	padding: 10px 20px;
+}
+.text2 p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px 20px;
+}
+.text2 ul{
+	display: block;
+	width: auto;
+	height: auto;
+}
+.text2 ul li{
+	width: auto;
+	display: block;
+}
+.text2 ul li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('https://www.wellcontrolcentre.com.au/wp-content/uploads/2017/06/fa-check-square-o_600.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text2 ul li p{
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+	float: left;
+	width: 70%;
+	height: 20px;
+}
+.khung .contact3{
+	width: 100%;
+	height: 450px;
+	background-image: url('http://giaoducthoidai.vn/Uploaded/thuyvt/2017_04_27/3NewFolder/a1_tr13_UCOJ.jpg');
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.contact3 .text4{
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.8;
+}
+.text4 h4{
+	color: white;
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+}
+.text4 p1{
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	display: block;
+	width: 800px;
+	height: 50px;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+.text4 .box6{
+	width: 95%;
+	height: 250px;
+	/*background: green;*/
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+.box6 .box7{
+	float: left;
+	width: 16%;
+	height: 250px;
+	/*background: red;*/
+}
+.box6 .diff1{
+	float: right;
+}
+.box6 .diff2{
+	margin-right: 2%;
+}
+.box6 .diff3{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.box6 .diff4{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.box7 .circle{
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	/*background: black;*/
+	border-radius: 100px;
+	border: 10px solid white;
+}
+.circle p{
+	color: white;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 60px;
+}
+.box7 p2{
+	color: white;
+	font-size: 16;
+	line-height: 20px;
+	text-align: center;
+	display: block;
+	width: 120px;
+	height: auto;
+	/*background: pink;*/
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.box6 hr{
+	float: left;
+	width: 8%;
+	border-style: dashed;
+	border-color: white; 
+	margin-top: 90px;
+}
+.khung .contact4{
+	width: 100%;
+	height: 400px;
+	background-image: url('https://lh5.googleusercontent.com/TdCE8Do5i0-mZI3M4HZlDx28zXIOGn4i_5e6TpH01yvd0l_o906uDMUBVRdrBfMxQFaqaHbNrZCzuA9OLsykclENCg0BrInGhOETyE6niWocjIqgGaaREY1D6zCUD-Jry3fbBgs1');
+}
+.contact4 .text3{
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+.text3 h4{
+	color:  black;
+	font-size: 40px;
+	line-height: 60px;
+	padding: 20px 20px;
+	margin-top: 40px;
+}
+.text3 b{
+	color: black;
+	font-size: 16px;
+	line-height: 40px;
+	padding: 20px 20px;
+	opacity: 1;
+
+}
+.text3 p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px 20px;
+	margin-bottom: 20px;
+
+}
+.text3 a1{
+	float: left;
+	color: black;
+	font-size: 16px;
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-decoration: none;
+	background: yellow;
+	margin-left: 20px;
+	border-radius: 5px;
+	padding: 5px 20px;
+	line-height: 40px;
+	text-align: center;
+
+
+}
+.text3 a2{
+	float: left;
+	color: black;
+	font-size: 16px;
+	display: block;
+	width: 150px;
+	height: 40px;
+	text-decoration: none;
+	background: gray;
+	margin-left: 20px;
+	border-radius: 5px;
+	padding: 5px 20px;
+	line-height: 40px;
+	text-align: center;
+
+}
+.khung .footer{
+	width: 100%;
+	height: 50px;
+	background: black;
+	margin-top: 10px;
+}
